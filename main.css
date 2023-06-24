@@ -79,4 +79,21 @@ body{
     border-image: linear-gradient(to right, #0371d4, transparent) 100 1%;
     border-top: none;
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.card .payment_bx .content .card_bx label{
+    color: #0070d6;
+    font-size: 13px;
+    font-weight: 600;
+}
+.card .payment_bx .content .card_bx input{
+    margin-top: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
 }
