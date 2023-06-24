@@ -97,3 +97,9 @@ body{
     font-size: 20px;
     font-weight: 600;
 }
+.card .payment_bx .content .card_bx img{
+    position: absolute;
+    width: 60px;
+    right: 0;
+    bottom: 0;
+}
