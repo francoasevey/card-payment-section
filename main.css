@@ -16,14 +16,41 @@ body{
 .card{
     width: 800px;
     height: 450px;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .card .payment_bx,
 .product_bx{
+    position: relative;
     width: 40%;
     height: 100%;
-    border: 1px solid #fff;
+    /*border: 1px solid #fff;*/
+}
+.card .payment_bx{
+    width: 60%;
+    overflow: hidden;
+}
+.card .payment_bx::before{
+    content: '';
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    background: #111e32;
+    border-radius: 30px;
+    box-shadow: 40px;
+    z-index: -1;
+}
+.card .payment_bx::after{
+    content: '';
+    position: absolute;
+    width: 130px;
+    height: 101%;
+    background: #111e32;
+    border-radius: 30px;
+    right: 7.5%;
+    top: -8px;
+    transform: rotate(10deg);
+    z-index: -1;
 }
