@@ -125,7 +125,23 @@ body{
     border-radius: 10px 0px 0px 10px;
     color: #fff;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.card .payment_bx .Price_btn .btn h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+.card .payment_bx .Price_btn .btn{
+    width: 200px;
+    height: 80px;
+    background: #fff;
+    border-radius: 0px 10px 10px 0px;
+    color: #0070d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s linear;
 }
