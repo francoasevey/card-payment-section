@@ -150,5 +150,10 @@ body{
 .card .payment_bx .Price_btn .btn:hover{
     background: rgb(0, 112, 214, .6);
     color: #fff;
-
+}
+.card .product_bx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
