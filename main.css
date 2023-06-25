@@ -103,3 +103,15 @@ body{
     right: 0;
     bottom: 0;
 }
+.card .payment_bx .content .exp_cvv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+}
+.card .payment_bx .content .exp_cvv .card_bx{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+}
