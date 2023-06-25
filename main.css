@@ -40,6 +40,7 @@ body{
     background: #111e32;
     border-radius: 30px;
    /*box-shadow: 40px;*/
+   box-shadow: 40px 0px 50px -35px rgb(0, 0, 0, .8);
     z-index: -1;
 }
 .card .payment_bx::after{
@@ -128,6 +129,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    box-shadow: 10px 3px 20px -5px rgb(0, 112, 214, .5);
 }
 .card .payment_bx .Price_btn .btn h3{
     font-size: 25px;
@@ -144,4 +146,9 @@ body{
     justify-content: center;
     cursor: pointer;
     transition: .3s linear;
+}
+.card .payment_bx .Price_btn .btn:hover{
+    background: rgb(0, 112, 214, .6);
+    color: #fff;
+
 }
