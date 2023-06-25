@@ -107,11 +107,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-right: 80px;
+    padding-right: 90px;
 }
 .card .payment_bx .content .exp_cvv .card_bx{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 80px;
+    width: 40%;
 }
