@@ -163,3 +163,15 @@ body{
     font-weight: 400;
     color: rgb(0, 0, 0, .6);
 }
+.card .product_bx h2{
+    font-family: Auto;
+}
+.card .product_bx .cards{
+    display: flex;
+    align-items: center;
+}
+.card .product_bx .cards .card_img{
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
