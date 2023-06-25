@@ -112,3 +112,20 @@ body{
 .card .payment_bx .content .exp_cvv .card_bx{
     width: 40%;
 }
+.card .payment_bx .Price_btn{
+    margin: 30px 0px 0px 50px;
+    display: flex;
+    align-items: center;
+}
+.card .payment_bx .Price_btn .price{
+    position: relative;
+    width: 200px;
+    height: 80px;
+    background: #0070d6;
+    border-radius: 10px 0px 0px 10px;
+    color: #fff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
